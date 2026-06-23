@@ -18,7 +18,7 @@ void loop() {
   for(int dutyCycle = 0; dutyCycle <= 255; dutyCycle++){   
     // 【新版用法】直接通过引脚号写入，不再需要指定通道
     ledcWrite(ledPin, dutyCycle);   
-    delay(2);
+    delay(3);
   }
 
   // 逐渐变暗
